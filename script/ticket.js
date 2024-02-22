@@ -1,9 +1,9 @@
-// Seat a1
+// Added Seat A1
 function preventDoubleClickA1() {
-    //   add color
+    //   Added color
     setBackgroundColorById("seat-number-a1");
   
-    // decrease the seat amount
+    //  Amount seat decrease
     const totalSeat = getElementValueById("seat-count");
     const seatLeft = totalSeat - 1;
     setElementValueById("seat-count", seatLeft);
@@ -28,16 +28,16 @@ function preventDoubleClickA1() {
   
     document.getElementById("seat-details").appendChild(newDiv);
   
-    // set total price
+    // Total Price Set
     const ticketPrice = getElementValueById("seat-price");
     const totalPrice = getElementValueById("total-price");
     const finalTotalPrice = ticketPrice + totalPrice;
     setElementValueById("total-price", finalTotalPrice);
   
-    // set grand total
+    // Total Grand Set
     setElementValueById("grand-total", finalTotalPrice);
   
-    //   increase seat count
+    //   Seat Count Increases
     const seatCount = getElementValueById("selected-seat");
     const totalSeatCount = seatCount + 1;
     setElementValueById("selected-seat", totalSeatCount);
@@ -51,12 +51,12 @@ function preventDoubleClickA1() {
     .getElementById("seat-number-a1")
     .addEventListener("click", preventDoubleClickA1);
   
-  // // seat a2
+  // Seat A2
   function preventDoubleClickA2() {
-    //   add color
+    //   Color Added
     setBackgroundColorById("seat-number-a2");
   
-    // decrease the seat amount
+    // Seat Amount Decreases
     const totalSeat = getElementValueById("seat-count");
     const seatLeft = totalSeat - 1;
     setElementValueById("seat-count", seatLeft);
@@ -81,16 +81,16 @@ function preventDoubleClickA1() {
   
     document.getElementById("seat-details").appendChild(newDiv);
   
-    // set total price
+    // Total Price Set
     const ticketPrice = getElementValueById("seat-price");
     const totalPrice = getElementValueById("total-price");
     const finalTotalPrice = ticketPrice + totalPrice;
     setElementValueById("total-price", finalTotalPrice);
   
-    // set grand total
+    // Grand Total Set
     setElementValueById("grand-total", finalTotalPrice);
   
-    //   increase seat count
+    //   Seat count Inceases
     const seatCount = getElementValueById("selected-seat");
     const totalSeatCount = seatCount + 1;
     setElementValueById("selected-seat", totalSeatCount);
@@ -104,12 +104,12 @@ function preventDoubleClickA1() {
     .getElementById("seat-number-a2")
     .addEventListener("click", preventDoubleClickA2);
   
-  // // seat a3
+  //  Seat a3
   function preventDoubleClickA3() {
-    //   add color
+    //   Added color
     setBackgroundColorById("seat-number-a3");
   
-    // decrease the seat amount
+    // Seat amount Decreases
     const totalSeat = getElementValueById("seat-count");
     const seatLeft = totalSeat - 1;
     setElementValueById("seat-count", seatLeft);
@@ -134,7 +134,7 @@ function preventDoubleClickA1() {
   
     document.getElementById("seat-details").appendChild(newDiv);
   
-    // set total price
+    // Total Seat price
     const ticketPrice = getElementValueById("seat-price");
     const totalPrice = getElementValueById("total-price");
     const finalTotalPrice = ticketPrice + totalPrice;
